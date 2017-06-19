@@ -1,0 +1,374 @@
+  .homePage {
+      background-color: #F3F3F3;
+  }
+  
+  .main-header {
+      background-image: url("../images/slider-1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+  }
+  
+  .home-page-navbar {
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+  }
+  
+  .home-page-navbar a {
+      color: white;
+  }
+  
+  .home-page-navbar a:hover {
+      color: #81A92A !important;
+      text-decoration: none;
+  }
+  
+  .navbar-collapse {
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  
+  ul.nav.navbar-nav {
+      margin-top: 1.75%;
+  }
+  
+  ul.nav.navbar-nav li {
+      text-align: center;
+  }
+  
+  .navbar-default .navbar-nav>li>a {
+      color: #ffffff;
+  }
+  
+  .glyphicon-chevron-left:hover,
+  .glyphicon-chevron-right:hover {
+      color: #81A92A;
+  }
+  
+  .display-info h2 {
+      color: #81A92A;
+      font-size: 3em;
+  }
+  
+  .display-info h4 {
+      font-size: 2em;
+  }
+  
+  .items {
+      width: 90%;
+      margin: 0 auto;
+      padding: 1%;
+  }
+  
+  .items-background {
+      background-color: white;
+  }
+  
+  .items-img img {
+      /*margin: 0 auto;*/
+      -webkit-transition: all 1s ease;
+      /* Safari and Chrome */
+      -moz-transition: all 1s ease;
+      /* Firefox */
+      -ms-transition: all 1s ease;
+      /* IE 9 */
+      -o-transition: all 1s ease;
+      /* Opera */
+      transition: all 1s ease;
+  }
+  
+  .items-img:hover img {
+      -webkit-transform: scale(1.05);
+      /* Safari and Chrome */
+      -moz-transform: scale(1.05);
+      /* Firefox */
+      -ms-transform: scale(1.05);
+      /* IE 9 */
+      -o-transform: scale(1.05);
+      /* Opera */
+      transform: scale(1.05);
+  }
+  
+  .items-img-wrapper {
+      overflow: hidden;
+  }
+  
+  
+  .small-items img {
+      display: block;
+      margin-bottom: 15%;
+  }
+  
+  .dining-items {
+      margin-top: 2%;
+      margin-bottom: 2%;
+  }
+  
+  .items-info {
+      padding-top: 3%;
+  }
+  
+  .items-info-text h3 {
+      font-size: 2.5em;
+  }
+  
+  .items-info-text h3:hover {
+      color: #81A92A;
+      cursor: pointer;
+  }
+  
+  .right-items-info-wardrobes {
+      padding-top: 6%;
+  }
+  
+  .items-info .sub-heading,
+  .items-info .items-price {
+      margin-top: 6px;
+      margin-bottom: 6px;
+  }
+  
+  .items-info .sub-heading {
+      color: #787777;
+  }
+  
+  .wardrobe-items {
+      margin-top: 15%;
+  }
+  
+  .door-content {
+      margin-top: 2%;
+      margin-bottom: 2%;
+      border-right: 1px solid black;
+  }
+  
+  .door-content:last-child {
+      border-right: none;
+  }
+  
+  .door-content h4:hover {
+      color: #81A92A;
+      cursor: pointer;
+  }
+  
+  #footer {
+      background-color: #191d1f;
+      color: #d1d1d1;
+      margin-right: -15px;
+      margin-left: -15px;
+      margin-top: 25px;
+  }
+  
+  .footer-items {
+      width: 90%;
+      margin: 0 auto;
+      padding-bottom: 4%;
+  }
+  
+  .footer-img-wrapper {
+      display: block;
+  }
+  
+  .footer-img-wrapper a img {
+      padding: 2%;
+      cursor: pointer;
+  }
+  
+  .footer-items h3 {
+      margin-top: 55px;
+      margin-bottom: 50px;
+      text-align: left;
+  }
+  
+  .glyphicon:before {
+      margin-right: 40%;
+  }
+  /* .glyphicon:before,
+  .glyphicon:after {
+      color: #81A92A;
+  }
+  */
+  
+  .footer-items li a {
+      cursor: pointer;
+      text-decoration: none;
+      color: #d1d1d1;
+  }
+  
+  .footer-items li a:hover {
+      color: #81A92A;
+  }
+  
+  .fa {
+      color: #d1d1d1;
+      font-size: 22px;
+      margin-right: 15px;
+  }
+  
+  .fa:hover {
+      color: #81A92A;
+  }
+  
+  .dropbtn {
+      cursor: pointer;
+  }
+  
+  .dropdown {
+      position: relative;
+      display: inline-block;
+  }
+  
+  .dropdown-content {
+      margin-left: 10px;
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      width: 130px;
+      max-width: 130px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-content a {
+      text-align: right;
+      color: white;
+      padding: 5px 5px;
+      text-decoration: none;
+      display: block;
+      border-bottom: 1px solid #81A92A;
+      background-color: #434544;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: #c9d907;
+  }
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+  
+  .more-options {
+      padding-top: 3%;
+  }
+  
+  .multi-item-carousel {
+      .carousel-inner {
+          > .item {
+              transition: 500ms ease-in-out left;
+          }
+          .active {
+              &.left {
+                  left: -33%;
+              }
+              &.right {
+                  left: 33%;
+              }
+          }
+          .next {
+              left: 33%;
+          }
+          .prev {
+              left: -33%;
+          }
+          @media all and (transform-3d),
+          (-webkit-transform-3d) {
+              > .item {
+                  transition: 500ms ease-in-out all;
+                  backface-visibility: visible;
+                  transform: none!important;
+              }
+          }
+      }
+      .carouse-control {
+          &.left,
+          &.right {
+              background-image: none;
+          }
+      }
+  }
+  
+  .carousel-control.right,
+  .carousel-control.left {
+      background-image: none;
+  }
+  
+  .carousel-inner {
+      margin-top: 7%;
+  }
+  
+  .carousel-inner a img {
+      margin: 0 auto;
+  }
+  
+  .carousel-inner h4 {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+  }
+  
+  .indItem {
+      border: 1px solid black;
+      text-align: center;
+      height: 350px;
+      
+  }
+
+  .items-wrapper{
+    padding-right: 0px;
+    padding-bottom: 15px;
+  }
+  
+  .indItemOfficeChairs {
+      border: 1px solid black;
+      text-align: center;
+      height: 700px;
+  }
+  
+  .contactDiv {
+      margin-right: 12px;
+      padding: 15px;
+  }
+  
+  .sf-text-color {
+      color: #81A92A;
+  }
+  
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: 0 auto;
+  }
+  
+  .contactCarouselImages img {
+      width: 450px !important;
+      height: 450px !important;
+      max-height: 450px;
+  }
+  
+  .furnitureCarouselImages img {
+      width: auto !important;
+      height: 80px !important;
+      max-height: 80px;
+  }
+  
+  .row.homeChairs,
+  .row.diningSets,
+  .row.beds,
+  .row.almirah,
+  .row.tables,
+  .row.sofaSet,
+  .row.officeChairs {
+      max-width: 95%;
+      margin: 0 auto;
+  }
+
+  .row.contacts{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .contactUs{
+    height: 40px;
+  }
+
+  .contactUsLabel{
+    padding-right: 5%;
+  }
